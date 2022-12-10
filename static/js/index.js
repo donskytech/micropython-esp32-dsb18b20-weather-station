@@ -107,16 +107,6 @@
     				'y': [newYArray]
     			};
 
-    			var lineLayout = {
-    				width: 600,
-    				height: 350,
-    				margin: {
-    					t: 0,
-    					b: 0
-    				}
-    			};
-
-
     			console.log(data_update)
     			Plotly.restyle('temperatureGaugeDiv', temp_update);
     			Plotly.update('temperatureLineDiv', data_update);
