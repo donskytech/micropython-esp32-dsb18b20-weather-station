@@ -108,7 +108,7 @@
     			};
 
     			console.log(data_update)
-    			Plotly.restyle('temperatureGaugeDiv', temp_update);
+    			Plotly.update('temperatureGaugeDiv', temp_update);
     			Plotly.update('temperatureLineDiv', data_update);
 
     		})
